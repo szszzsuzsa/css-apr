@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+body {
+  margin: 0;
+}
+
+.main-container {
+  height: 100vh;
+  background-color: #fbb03b;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+.burger-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  width: 6rem;
+  height: 6rem;
+  padding: 1rem;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.burger-btn span {
+  display: block;
+  width: 75%;
+  height: 7px;
+  margin: 4px;
+  background-color: #138073;
+}
+
+@media screen and (max-width: 1000px) {
+  .burger-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0.5rem;
+    top: 2.4rem;
+    width: 4rem;
+    height: 4rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .burger-btn span {
+    display: block;
+    width: 75%;
+    height: 0.3rem;
+    margin: 0.14rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
